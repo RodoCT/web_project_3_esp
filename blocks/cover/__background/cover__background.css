@@ -1,0 +1,10 @@
+.cover__background {
+    background-image: url(../../../image/cover__background.svg);
+    width: 1184px;
+    height: 740px;
+    transition: opacity 0.8s ease;
+}
+
+.cover__background:hover {
+    opacity: .5;
+}
