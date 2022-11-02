@@ -1,5 +1,11 @@
 .intro {
     width: 1017px;
-    margin: auto;
     padding-bottom: 92px;
+}
+
+@media screen and (max-width: 320px) {
+    
+    .intro {
+        width: 288px;
+    }
 }

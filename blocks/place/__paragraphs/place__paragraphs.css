@@ -1,0 +1,8 @@
+.place__paragraphs {
+    grid-area: content;
+    max-height: 480px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    row-gap: 25px;
+}

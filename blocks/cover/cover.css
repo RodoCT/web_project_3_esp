@@ -1,7 +1,3 @@
 .cover {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 22px auto 92px;
-    width: 1184px;
+    padding: 64px auto;
 }
