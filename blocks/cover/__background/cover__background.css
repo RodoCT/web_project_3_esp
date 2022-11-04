@@ -1,8 +1,19 @@
 .cover__background {
     background-image: url(../../../image/cover__background.svg);
     width: 1184px;
-    height: 740px;
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+@media screen and (max-width: 320px) {    
+    .cover__background {
+        width: 320px;
+    }
+}
+
+@media screen and (max-width: 768px) {    
+    .cover__background {
+        width: 768px;
+    }
 }

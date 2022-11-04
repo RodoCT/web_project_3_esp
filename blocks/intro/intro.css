@@ -9,3 +9,9 @@
         width: 288px;
     }
 }
+
+@media screen and (max-width: 768px) {
+    .intro {
+        width: 720px;
+    }
+}

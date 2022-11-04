@@ -1,9 +1,16 @@
 .place__artist {
-    width: 456px;
     font-family: 'Inter';
     font-style: normal;
     font-weight: 400;
     font-size: 18px;
     line-height: 22px;
     color: #FFFFFF;
+}
+
+@media screen and (max-width: 320px) {
+    .place__artist {
+        font-size: 18px;
+        line-height: 22px;
+        width: 288px;
+    }
 }
