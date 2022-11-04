@@ -5,14 +5,15 @@
     grid-area: website;
 }
 
+@media screen and (max-width: 768px) {
+    .place__website {
+        width: 295px;
+    }
+}
+
 @media screen and (max-width: 320px) {
     .place__website {
         width: 288px;
     }
 }
 
-@media screen and (max-width: 768px) {
-    .place__website {
-        width: 295px;
-    }
-}

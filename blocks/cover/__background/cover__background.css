@@ -6,14 +6,15 @@
     align-items: center;
 }
 
+@media screen and (max-width: 768px) {    
+    .cover__background {
+        width: 768px;
+    }
+}
+
 @media screen and (max-width: 320px) {    
     .cover__background {
         width: 320px;
     }
 }
 
-@media screen and (max-width: 768px) {    
-    .cover__background {
-        width: 768px;
-    }
-}

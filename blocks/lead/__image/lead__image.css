@@ -2,6 +2,11 @@
     width: 984px;
     filter: grayscale(100%);
 }
+@media screen and (max-width: 768px) {
+    .lead__image {
+        width: 768px;
+    }
+}
 
 @media screen and (max-width: 320px) {
     
@@ -11,8 +16,3 @@
     }
 }
 
-@media screen and (max-width: 768px) {
-    .lead__image {
-        width: 768px;
-    }
-}

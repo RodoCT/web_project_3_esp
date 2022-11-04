@@ -6,6 +6,13 @@
     padding-bottom: 92px;
 }
 
+@media screen and (max-width: 768px) {
+    .photo-grid {
+        width: 720px;
+        grid-template-columns: repeat(2, auto);
+    }
+}
+
 @media screen and (max-width: 320px) {
     .photo-grid {
         width: 288px;
@@ -13,9 +20,3 @@
     }
 }
 
-@media screen and (max-width: 768px) {
-    .photo-grid {
-        width: 720px;
-        grid-template-columns: repeat(2, auto);
-    }
-}

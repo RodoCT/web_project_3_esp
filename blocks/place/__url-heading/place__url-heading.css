@@ -11,6 +11,13 @@
     margin-bottom: 8px;
 }
 
+@media screen and (max-width: 768px) {
+    .place__url-heading {
+        font-size: 12px;
+        line-height: 15px;
+    }
+}
+
 @media screen and (max-width: 320px) {
     .place__url-heading {
         font-size: 12px;
@@ -19,9 +26,3 @@
     }
 }
 
-@media screen and (max-width: 768px) {
-    .place__url-heading {
-        font-size: 12px;
-        line-height: 15px;
-    }
-}
