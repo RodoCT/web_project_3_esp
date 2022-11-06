@@ -1,22 +1,25 @@
 .photo-grid {
     display: grid;
-    grid-gap: 16px;
     grid-template-columns: repeat(4, auto);
-    width: 1184px;
+    grid-gap: 16px;
     padding-bottom: 92px;
 }
 
 @media screen and (max-width: 768px) {
+
     .photo-grid {
-        width: 720px;
+        max-width: 720px;
         grid-template-columns: repeat(2, auto);
+        
     }
+
 }
 
 @media screen and (max-width: 320px) {
+    
     .photo-grid {
-        width: 288px;
+        max-width: 288px;
         grid-template-columns: repeat(1, auto);
     }
-}
 
+}

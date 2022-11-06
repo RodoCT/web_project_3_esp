@@ -5,25 +5,27 @@
     font-weight: 400;
     font-size: 30px;
     line-height: 36px;
-    color: #FFFFFF;
     text-align: center;
-    margin: auto;
-    margin-bottom: 62px;
+    color: #FFFFFF;
+    margin-bottom: 64px;
 }
+
 @media screen and (max-width: 768px) {
-    
+
     .lead__subtitle {
         width: 720px;
-        font-size: 30px;
-        line-height: 36px;
+        margin-bottom: 69px;
     }
+
 }
 
 @media screen and (max-width: 320px) {
+
     .lead__subtitle {
         width: 288px;
         font-size: 16px;
         line-height: 20px;
+        margin-bottom: 40px;
     }
-}
 
+}

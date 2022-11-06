@@ -1,17 +1,11 @@
 .cover {
-    padding-top: 22px;
     padding-bottom: 92px;
 }
 
-@media screen and (max-width: 768px) {    
-    .cover {
-        width: 768px;
-    }
-}
+@media screen and (max-width: 320px) {
 
-@media screen and (max-width: 320px) {    
     .cover {
-        width: 320px;
+        padding-bottom: 64px;
     }
+    
 }
-
