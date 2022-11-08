@@ -2,15 +2,4 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    padding-top: 34px;
-    padding-bottom: 36px;
-}
-
-@media screen and (max-width: 320px) {
-
-    .header {
-        padding-top: 20px;
-        padding-bottom: 52px;
-    }
-
 }

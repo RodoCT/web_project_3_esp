@@ -1,19 +1,18 @@
 .intro__title {
-    font-family: 'Inter';
+    width: 100%;
+    font-family: "Inter", Arial, sans-serif;
     font-style: normal;
     font-weight: 900;
     font-size: 54px;
-    line-height: 58px;
-    color: #FFFFFF;
+    line-height: 107%;
+    color: white;
     margin-bottom: 40px;
-}
-
-@media screen and (max-width: 320px) {
-
+  }
+  
+  @media screen and (max-width: 767px) {
     .intro__title {
-        font-size: 32px;
-        line-height: 35px;
-        margin-bottom: 9px;
+      font-size: 32px;
+      line-height: 109%;
+      margin-bottom: 0;
     }
-    
-}
+  }

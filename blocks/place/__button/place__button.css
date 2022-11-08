@@ -1,0 +1,15 @@
+.place__button {
+    max-width: 355px; 
+    background: #0278FE;
+    border-radius: 4px;
+    padding: 13px 20px;
+    display: flex;
+    justify-content: center;
+    grid-area: button;
+}
+
+@media screen and (max-width: 767px) {
+    .place__button {
+      max-width: 288px;
+    }
+  }

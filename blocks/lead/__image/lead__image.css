@@ -1,20 +1,25 @@
 .lead__image {
-    width: 984px;
+    max-width: 984px;
     filter: grayscale(100%);
+    margin-bottom: 92px;
 }
 
-@media screen and (max-width: 768px) {
-
+@media screen and (max-width: 1279px) {
     .lead__image {
-        width: 100vw;
+      margin-bottom: 55px;
     }
-    
-}
-
-@media screen and (max-width: 320px) {
-
+  }
+  
+  @media screen and (max-width: 984px) {
     .lead__image {
-        width: 100vw;
+      width: 100%;
     }
-    
-}
+  }
+  
+  @media screen and (max-width: 767px) {
+    .lead__image {
+      width: 100%;
+      margin-bottom: 44px;
+    }
+  }
+  
